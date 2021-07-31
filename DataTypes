@@ -1,0 +1,113 @@
+# global --> For whole proogram 
+# local  --> For particular section only
+
+# function is a block
+# def --> 
+# Function is also known as method --> when we assign a method so it is like def name(parameter):
+
+x = "awesome" # global variable
+
+# def myfunc():
+#     y = "user friendly" # global variable
+#     print("Python is " + x)
+#     print("Python is " + y)
+# myfunc()
+
+
+# global keyword -> simply declar global variable ith the help of global keyord
+def myfunc1(): 
+    global x
+    x = "fantastic"
+myfunc1()
+print("Python is " + x)
+
+# WAP to declare and initialize the 5 car names simultaneously (assign multiple values)
+# WAP to find the compound interest (A = P(1+r/n)^nt)
+
+# Github 
+
+'''------------------------------Python DataTypes----------------------------'''
+# DataTypes -> Data Types
+
+''' 
+Builtin DataTypes
+1. Text Type:         String, char
+2. Numeric  :         int(5), float(5.64), complex(5+6j)
+3. Sequence :         list, tuple, range
+4. Mapping  :         dict
+5. Set DataTypes:     set, frozenset
+6. Boolean :          bool
+7. Binary DataTypes:  bytes, byteArray, memoryview
+''' 
+
+# 1. Text
+
+# String
+strVar = 'Hello World'
+strVar = "Hello world"
+strVar = '''Hello world'''
+print(strVar) # Hello World
+
+# char 
+charVar = 'a'
+print(charVar) 
+
+# 2. Numeric
+
+# int
+intVar = 7
+print(intVar)
+
+# complex (Real + imaginary)
+compVar = 5 + 7j
+print(compVar)
+print(type(compVar))
+
+# Sequence
+
+# list []
+listVar = ['apple','banana','cherry']
+print(listVar)
+
+# tuple ()
+tupleVar = ('apple','banana','cherry')
+print(tupleVar)
+print(type(tupleVar))
+
+# range
+rangeVar = range(7)
+print(rangeVar)
+
+# Mapping
+
+#  dict
+dictVar = {'name' : 'kartik', 'field' : 'Computers', 'age' : 19}
+print(dictVar)
+print(type(dictVar))
+
+# Set 
+setVar = {'apple','banana','cherry'}
+print(setVar)
+print(type(setVar))
+
+# FrozenSet
+frozSetVar = frozenset({'apple','banana','cherry'})
+print(frozSetVar)
+print(type(frozSetVar))
+
+# Boolean (True/False -> First word should bbe capital)
+bool = True
+bool1 = False
+print(bool)
+print(bool1)
+
+# Binary
+
+# a = b'hello'
+# print(a)
+
+bytearrayVar = bytearray(5)
+print(bytearrayVar)
+
+memoryviewVar = memoryview(bytes(5))
+print(memoryviewVar)
