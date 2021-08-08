@@ -54,3 +54,39 @@ print(a[2:])
 
 b = "Hello World"
 print(b[-8:-4])
+
+# Upper Case 
+a = "Coding Ninjas paid courses for free"
+print(a.upper()) # CODING NINJAS PAID COURSES FOR FREE
+
+# Lower Case
+b = "CODING NINJAS PAID COURSES FOR FREE"
+print(b.lower())
+
+# Strip 
+
+# c = "     Coding Ninjas paid courses for free --> "
+print(c)
+s = c.strip()
+print(s.strip())
+print(s.upper())
+
+Name = "Jartik wants to mearn glutter"
+f = Name.replace('J','K') 
+print(f)
+g = f.replace('m','l')
+print(g)
+h = g.replace('g','f')
+print(h)
+
+
+# split()
+
+a = "Kartik, Lives, in, Agra"
+b = a.split(",")
+print(b)
+print(type(b))
+
+# Escaping Characters
+# String Methods
+# Formatting
