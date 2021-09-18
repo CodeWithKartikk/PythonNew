@@ -95,3 +95,55 @@ x = 5
 
 '''Python Comparison Operators'''
 # ==, !=, >, <, >=, <=
+
+# == operator
+# x = 3
+# y = 5
+
+# print(x == y)
+
+# print(x != y)
+
+# print(x > y)
+
+# print(x < y)
+
+# print(x>=y)
+
+# print(x <= y)
+
+''' Python Logical Operators'''
+# and -> Returns True if both statements are true
+# or -> returns true when if one of the statements is True
+# not -> reverse the result
+
+# x = 4
+# print(x > 2 and x < 9) 
+# print(x < 5 or x >4)
+# print(not(x > 2 and x < 9))
+
+''' Python Identity Operators'''
+
+# is -> returns true if both variables are the same object
+# is not ->
+
+x = 5
+y = 3
+z = x
+print(x is z)
+print(x is y)
+
+'''Mentorship Operators'''
+
+# isNot -> Returns True if both variabess have not same object
+print(x is not y)
+print(x is not z)
+
+# in -> Returns True if a sequence with a specified value is present in the object 
+# not in -> Returns True if a sequence with a specified value is not present in the object 
+
+fruits = ["Apple","Banana"]
+print("Banana" in fruits)
+print("guava" not in fruits)
+
+'''Bitwise Operators'''
